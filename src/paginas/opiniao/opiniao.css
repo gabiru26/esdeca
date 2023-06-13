@@ -1,0 +1,68 @@
+.titulo_cronicas {
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FF603C;
+    top: 120px;
+    left: 40px;
+  }
+
+.tit_opiniao {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 200px;
+  }
+  
+  .texto_opiniao {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1300px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #24191F;
+    justify-content: center;
+  }
+  
+  .containers_opiniao {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .containers_opiniao div {
+    margin-bottom: 60px;
+  }
+
+  .container_enterro img{
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  @media screen and (max-width: 960px) {
+
+    .titulo_cronicas {
+        font-size: 50px;
+      }
+    
+      .tit_opiniao {
+        font-size: smaller;
+        margin-right: 7px;
+      }
+    
+      .texto_opiniao {
+        width: 350px;
+        margin-left: 10px;
+      }
+
+      .container_enterro img {
+       width: 90%;
+      }
+  }
