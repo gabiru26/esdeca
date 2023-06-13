@@ -1,16 +1,18 @@
-/*import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './componentes/navbar';
 import Artistas from './paginas/artistas';
 import Homepage from './paginas/homepage';
 import Enterro from './paginas/opiniao/enterro';
 import Mid from './paginas/opiniao/mid';
-import Opinioes from './paginas/opinioes'; */
+import Opinioes from './paginas/opinioes'; 
 
 function App() {
   return (
+
+    <>
     <h1>ola</h1>
-    /*
+    
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -21,9 +23,9 @@ function App() {
         <Route path="paginas/opiniao/enterro" element={<Enterro />} />
       </Routes>
 
-
     </BrowserRouter>
-    */
+    </>
+    
   );
 }
 
