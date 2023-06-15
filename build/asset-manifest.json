@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://esdeca.web.ua.pt/static/css/main.108c1118.css",
+    "main.css": "https://esdeca.web.ua.pt/static/css/main.9a0d456c.css",
     "main.js": "https://esdeca.web.ua.pt/static/js/main.ecfd3d87.js",
     "static/media/background.png": "https://esdeca.web.ua.pt/static/media/background.e58004665f653fcef963.png",
     "static/media/logo.png": "https://esdeca.web.ua.pt/static/media/logo.9dc510f81a66e9996da7.png",
@@ -44,11 +44,11 @@
     "static/media/n1.png": "https://esdeca.web.ua.pt/static/media/n1.69924196b1af20b6e7a0.png",
     "static/media/n2.png": "https://esdeca.web.ua.pt/static/media/n2.c9658d20cd08d9b79786.png",
     "index.html": "https://esdeca.web.ua.pt/index.html",
-    "main.108c1118.css.map": "https://esdeca.web.ua.pt/static/css/main.108c1118.css.map",
+    "main.9a0d456c.css.map": "https://esdeca.web.ua.pt/static/css/main.9a0d456c.css.map",
     "main.ecfd3d87.js.map": "https://esdeca.web.ua.pt/static/js/main.ecfd3d87.js.map"
   },
   "entrypoints": [
-    "static/css/main.108c1118.css",
+    "static/css/main.9a0d456c.css",
     "static/js/main.ecfd3d87.js"
   ]
 }
