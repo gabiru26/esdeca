@@ -369,7 +369,10 @@ body {
 
   .imgLogo {
     width: 400px;
-    height: 400px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .artistas_semanais {
@@ -381,11 +384,12 @@ body {
   }
 
   .artista_semanal1 {
-    margin-bottom: 50px;
+    margin-top: 70px;
+    bottom: 50px;
   }
 
   .artista_semanal1 p {
-    font-size: 32px;
+    font-size: 28px;
     width: 350px;
     align-items: center;
     margin-left: 20px;
@@ -393,8 +397,8 @@ body {
   }
 
   .artista_semanal1 img {
-    height: 480px;
-    width: 360px;
+    height: 440px;
+    width: 320px;
 
   }
 
@@ -410,8 +414,8 @@ body {
   }
 
   .artista_semanal2 img {
-    height: 480px;
-    width: 360px;
+    height: 440px;
+    width: 320px;
   }
 
   .nome_artista_semanal img {
@@ -423,7 +427,9 @@ body {
   }
 
   .n_edicao {
-    bottom: 1950px;
+    bottom: 1920px;
+    height: 400px;
+    width: 400px;
   }
 
 
