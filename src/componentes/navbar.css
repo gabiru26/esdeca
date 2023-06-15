@@ -22,10 +22,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    margin-left: 550px;
     margin-top: -70px;
-    padding-right: 100px;
-    padding-left: 100px;
 }
 
 
@@ -70,7 +67,7 @@
 
 .menu-icon {
     display: none;
-
+    margin-left: -10px;
 }
 
 

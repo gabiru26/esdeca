@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Neue Montreal';
-
 }
 
 body {
@@ -31,14 +30,21 @@ body {
 }
 
 .artistas_semanais {
-  position: relative;
-  bottom: 2250px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 150px;
   display: flex;
   flex-direction: row;
-  padding-left: 100px;
-  padding-right: 100px;
   z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  grid-template-columns: repeat(auto-fill, auto);
+  grid-gap: 200px;
 }
+
+
 
 .artista_semanal1 p {
   position: absolute;
@@ -50,22 +56,6 @@ body {
   line-height: 45px;
   color: #24191F;
   padding-top: 30px;
-}
-
-.artista_semanal2 {
-  margin-left: 230px;
-}
-
-.artista_semanal2 p {
-  position: absolute;
-  width: 516px;
-  height: 162px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 45px;
-  padding-top: 30px;
-  color: #24191F;
 }
 
 .nome_artista_semanal {
@@ -93,7 +83,7 @@ body {
 
 .n_edicao {
   position: relative;
-  bottom: 1900px;
+  bottom: 1680px;
   right: 100px;
 }
 
@@ -170,7 +160,6 @@ body {
   left: 20px;
 }
 
-
 .but_opinioes {
   position: relative;
   display: flex;
@@ -192,16 +181,15 @@ body {
   flex-direction: column;
   position: relative;
   margin-top: -350px;
-  right: 650px;
-}
 
+}
 
 .edicao11 {
   display: flex;
   flex-direction: column;
   position: relative;
-  right: 420px;
   bottom: 630px;
+  left: 230px;
 }
 
 .edicao10 {
@@ -211,16 +199,72 @@ body {
   bottom: 1270px;
 }
 
+.edicao9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1920px;
+  left: 230px;
+}
+
+.edicao8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 2570px;
+}
+
+.edicao7 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 3220px;
+  left: 230px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
 }
 
-
-
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.column2 {
+  right: 200px;
+  position: relative;
+}
+
+.column3 {
+  position: relative;
+  right: 400px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 670px;
+  justify-content: flex-end;
+  right: 150px;
+}
+
+.row p {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 43px;
+  width: 500px;
+  text-align: left;
+  color: #24191F;
+}
+
+.row img {
+  position: relative;
+  left: 100px;
 }
 
 .row1 {
@@ -248,7 +292,7 @@ body {
   flex-direction: row;
   position: relative;
   bottom: 670px;
-  left: 150px;
+  justify-content: flex-end;
 }
 
 .row2 p {
@@ -260,13 +304,13 @@ body {
   width: 500px;
   text-align: left;
   color: #24191F;
-  
 }
 
 .row2 img {
   position: relative;
   left: 100px;
 }
+
 
 .row3 {
   display: flex;
@@ -288,6 +332,33 @@ body {
   left: 100px;
 }
 
+.row4 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 670px;
+  justify-content: flex-end;
+  left: 230px;
+}
+
+.row4 p {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 43px;
+  width: 500px;
+  text-align: left;
+  color: #24191F;
+}
+
+.row4 img {
+  position: relative;
+  left: 60px;
+}
+
+
+
 
 .n_edicao_art {
   position: relative;
@@ -298,8 +369,15 @@ body {
 .n_edicao_art2 {
   position: relative;
   float: right;
-  top: -950px;
-  left: 100px;
+  top: -940px;
+  right: 100px;
+}
+
+.n_edicao_art3 {
+  position: relative;
+  float: right;
+  top: -940px;
+  right: 200px;
 }
 
 .nome_artista1 {
@@ -326,7 +404,6 @@ body {
   top: -700px;
   z-index: 30;
   float: right;
-  right: 200px;
 }
 
 .nome_artista2 p {
@@ -345,7 +422,7 @@ body {
   top: -700px;
   z-index: 30;
   float: left;
-  left: 150px;
+  left: 970px;
 }
 
 .nome_artista3 p {
@@ -359,13 +436,49 @@ body {
   left: 20px;
 }
 
+.nome_artista4 {
+  position: relative;
+  top: -700px;
+  z-index: 30;
+  float: left;
+  left: 150px;
+}
+
+.nome_artista4 p {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  top: -50px;
+  left: 20px;
+}
+
+.nome_artista5 {
+  position: relative;
+  top: -700px;
+  z-index: 30;
+  float: right;
+  right: -180px;
+}
+
+.nome_artista5 p {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  top: -50px;
+  left: 20px;
+}
 
 @media screen and (max-width: 960px) {
 
   body {
     max-width: 960px;
   }
-
 
   .imgLogo {
     width: 400px;
@@ -378,14 +491,10 @@ body {
   .artistas_semanais {
     display: flex;
     flex-direction: column;
-    margin-left: 0;
-    margin-top: -40px;
-    align-items: center;
-  }
-
-  .artista_semanal1 {
-    margin-top: 70px;
-    bottom: 50px;
+    position: absolute;
+    right: -80px;
+    top: -10px;
+    grid-gap: 0px;
   }
 
   .artista_semanal1 p {
@@ -399,23 +508,6 @@ body {
   .artista_semanal1 img {
     height: 440px;
     width: 320px;
-
-  }
-
-  .artista_semanal2 {
-    margin-left: 0;
-  }
-
-  .artista_semanal2 p {
-    font-size: 32px;
-    width: 350px;
-    align-items: center;
-    margin-left: 20px;
-  }
-
-  .artista_semanal2 img {
-    height: 440px;
-    width: 320px;
   }
 
   .nome_artista_semanal img {
@@ -427,21 +519,23 @@ body {
   }
 
   .n_edicao {
-    bottom: 1920px;
+    bottom: 1670px;
     height: 400px;
     width: 400px;
   }
-
 
   .logo_inv {
     visibility: hidden;
   }
 
   .tit_opinioes {
+    position: relative;
     width: 400px;
     height: 400px;
-    position: relative;
-    top: -450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -400px;
   }
 
   .ret_opinioes {
@@ -473,16 +567,224 @@ body {
     left: 200px;
   }
 
-
   .but_opinioes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 45px;
   }
 
   .ret_opinioes {
     top: -600px;
   }
 
-}
+  .edicao12 {
+    flex-direction: row;
+    margin-top: -780px;
+  }
+
+  .edicao11 {
+    flex-direction: row;
+    left: 5px;
+  }
+
+  .edicao10 {
+    flex-direction: row;
+    left: 5px;
+  }
+
+  .edicao9 {
+    flex-direction: row;
+    left: 5px;
+  }
+
+  .edicao8 {
+    flex-direction: row;
+    left: 5px;
+  }
+
+  .edicao7 {
+    flex-direction: row;
+    left: 5px;
+  }
+
+  .n_edicao_art {
+    height: 200px;
+    width: 200px;
+    top: -920px;
+  }
+
+  .n_edicao_art2 {
+    height: 200px;
+    width: 200px;
+    top: -920px;
+    right: 775px;
+  }
+
+  .n_edicao_art3 {
+    height: 200px;
+    width: 200px;
+    top: -920px;
+    right: 780px;
+  }
+
+  .nome_artista1 {
+    left: -170px;
+    top: -705px;
+  }
+
+  .nome_artista1 img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .nome_artista1 p {
+    top: -40px;
+    left: 10px;
+  }
+
+  .nome_artista2 {
+    left: -415px;
+    top: -705px;
+  }
+
+  .nome_artista2 img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .nome_artista2 p {
+    top: -40px;
+    left: 10px;
+  }
+
+  .nome_artista3 {
+    left: 433px;
+    top: -705px;
+  }
+
+  .nome_artista3 img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .nome_artista3 p {
+    top: -40px;
+    left: 10px;
+  }
+
+  .nome_artista4 {
+    left: 25px;
+    top: -685px;
+  }
+
+  .nome_artista4 img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .nome_artista4 p {
+    top: -40px;
+    left: 10px;
+  }
+
+  .nome_artista5 {
+    left: -415px;
+    top: -705px;
+  }
+
+  .nome_artista5 img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .nome_artista5 p {
+    top: -40px;
+    left: 10px;
+  }
+
+  .row {
+    justify-content: normal;
+    left: 100px;
+    top: -740px;
+  }
+
+  .row img {
+    height: 150px;
+    width: 130px;
+    left: 0px;
+    top: 45px;
+  }
+
+  .row p {
+    font-size: 20px;
+    width: 200px;
+  }
+  
+  .row1 img {
+    height: 150px;
+    width: 130px;
+  }
+
+  .row1 p {
+    font-size: 20px;
+    width: 200px;
+    left: -10px;
+    top: -30px;
+  }
+
+  .row2 {
+    justify-content: normal;
+    left: 450px;
+    top: -740px;
+  }
+
+  .row2 img {
+    height: 150px;
+    width: 130px;
+    left: 0px;
+    top: 45px;
+  }
+
+  .row2 p {
+    font-size: 20px;
+    width: 200px;
+  }
+
+  .row3 {
+    left: 35px;
+    bottom: 800px;
+  }
+
+  .row3 img {
+    position: relative;
+    height: 150px;
+    width: 130px;
+    top: 50px;
+  }
+
+  .row3 p {
+    font-size: 20px;
+    width: 200px;
+    left: 10px;
+  }
+
+  .row4 {
+    justify-content: normal;
+    left: 450px;
+    top: -740px;
+  }
+
+  .row4 img {
+    height: 150px;
+    width: 130px;
+    left: 0px;
+    top: 45px;
+  }
+
+  .row4 p {
+    font-size: 20px;
+    width: 200px;
+  }
+  }

@@ -5,26 +5,25 @@ import Artistas from './paginas/artistas';
 import Homepage from './paginas/homepage';
 import Enterro from './paginas/opiniao/enterro';
 import Mid from './paginas/opiniao/mid';
-import Opinioes from './paginas/opinioes'; 
+import Opinioes from './paginas/opinioes';
 
 function App() {
   return (
 
     <>
-    
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="paginas/artistas" element={<Artistas />} />
-        <Route path="paginas/opinioes" element={<Opinioes />} />
-        <Route path="paginas/opiniao/mid" element={<Mid />} />
-        <Route path="paginas/opiniao/enterro" element={<Enterro />} />
-      </Routes>
 
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="paginas/artistas" element={<Artistas />} />
+            <Route path="paginas/opinioes" element={<Opinioes />} />
+            <Route path="paginas/opiniao/mid" element={<Mid />} />
+            <Route path="paginas/opiniao/enterro" element={<Enterro />} />
+        </Routes>
+      </BrowserRouter>
     </>
-    
+
   );
 }
 
